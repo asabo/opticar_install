@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<project default="create_run_jar" name="Create Runnable Jar for Project opticar_install">
+    <!--this file was created by Eclipse Runnable JAR Export Wizard-->
+    <!--ANT 1.7 is required                                        -->
+    <target name="create_run_jar">
+        <jar destfile="D:/Projekt_Opticar/Projekt_Opticar/instalacija/hzzo_install.jar" filesetmanifest="mergewithoutmain">
+            <manifest>
+                <attribute name="Main-Class" value="biz.sunce.opticar.install.Glavni"/>
+                <attribute name="Class-Path" value="."/>
+            </manifest>
+            <fileset dir="D:/wspace_jbuilder/opticar_install/bin"/>
+        </jar>
+    </target>
+</project>
