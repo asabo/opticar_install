@@ -3,12 +3,12 @@
     <!--this file was created by Eclipse Runnable JAR Export Wizard-->
     <!--ANT 1.7 is required                                        -->
     <target name="create_run_jar">
-        <jar destfile="D:/Projekt_Opticar/Projekt_Opticar/instalacija/hzzo_install.jar" filesetmanifest="mergewithoutmain">
+        <jar destfile="/Users/ante/Documents/Projekt_Opticar/Projekt_Opticar/instalacija/hzzo_install.jar" filesetmanifest="mergewithoutmain">
             <manifest>
                 <attribute name="Main-Class" value="biz.sunce.opticar.install.Glavni"/>
                 <attribute name="Class-Path" value="."/>
             </manifest>
-            <fileset dir="D:/wspace_jbuilder/opticar_install/bin"/>
+            <fileset dir="./classes/"/>
         </jar>
     </target>
 </project>
